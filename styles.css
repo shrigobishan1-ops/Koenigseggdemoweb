@@ -1,0 +1,55 @@
+.featured-cars{
+    margin: 40px;
+    max-width: 1550px;
+    text-align: center;
+
+}
+.featured-cars input{
+    display: none;
+}
+.tab-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+
+}
+
+.tab-buttons label{
+    padding: 12px 10px;
+    background: #d9d7d2;
+    color: #111;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.tab-content{
+    display: none;
+    margin-top: 20px;
+}
+.tab-content img{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+#gemera:checked ~ .tab-buttons label[for="gemera"],
+#jesko-attack:checked ~ .tab-buttons label[for="jesko-attack"],
+#jesko-absolut:checked ~ .tab-buttons label[for="jesko-absolut"],
+#cc850:checked ~ .tab-buttons label[for="cc850"] {
+    background: darkcyan;
+    color: white;
+
+ }
+
+#gemera:checked ~ .gemera-content,
+#jesko-attack:checked ~ .jesko-attack-content,
+#jesko-absolut:checked ~ .jesko-absolut-content,
+#cc850:checked ~ .cc850-content {
+    display: block;
+ }

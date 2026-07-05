@@ -1,3 +1,10 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height:10vh;
+    align-items: baseline;
+}
+
 .featured-cars{
     margin: 40px;
     max-width: 1550px;
@@ -36,6 +43,20 @@
     height: auto;
     display: block;
     margin: 0 auto 15px;
+}
+
+.checkbox-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.terms-link{
+    color: darkred;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.terms-link:hover{
+    color: #f27a7a;
 }
 
 #gemera:checked ~ .tab-buttons label[for="gemera"],

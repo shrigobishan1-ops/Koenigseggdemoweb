@@ -104,11 +104,23 @@ h1{
     text-align: center;
 }
 
-.attack-description{
+.jesko-attack-description{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 27px;
     text-align: center;
     font-weight: 700;
+}
+
+.jesko-absolut-description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
+}
+
+.cc850-description{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    text-align: center;
 }
 
 .highlight{
@@ -229,16 +241,4 @@ h1{
     width: 150px;
     height: 150px;
     object-fit: cover;
-}
-
-.absolut-description{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 27px;
-    text-align: center;
-}
-
-.cc850-description{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 27px;
-    text-align: center;
 }
